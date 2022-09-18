@@ -26,10 +26,9 @@
 							<h2>Menu</h2>
 							<ul class="links">
 								<li><a href="index.html">Home</a></li>
-								<li><a href="generic.html">Generic</a></li>
-								<li><a href="elements.html">Elements</a></li>
-								<li><a href="#">Log In</a></li>
-								<li><a href="#">Sign Up</a></li>
+								<li><a href="about.html">About</a></li>
+								<li><a href="Projects.html">Projects</a></li>
+								<li><a href="#footer">Contact</a></li>
 							</ul>
 							<a href="#" class="close">Close</a>
 						</div>
@@ -39,8 +38,9 @@
 					<section id="wrapper">
 						<header>
 							<div class="inner">
-								<h2>Generic</h2>
-								<p>Phasellus non pulvinar erat. Fusce tincidunt nisl eget ipsum.</p>
+								<h2>About Me</h2>
+								<p>Hello, my name is Joshua Kim. I am currently a student studying at the University of Calgary
+                                    and graduating in December 2022 with a Bachelor's in Computer Science and a minor in Mathematics.</p>
 							</div>
 						</header>
 
@@ -48,28 +48,91 @@
 							<div class="wrapper">
 								<div class="inner">
 
-									<h3 class="major">Lorem ipsum dolor</h3>
-									<p>Morbi mattis mi consectetur tortor elementum, varius pellentesque velit convallis. Aenean tincidunt lectus auctor mauris maximus, ac scelerisque ipsum tempor. Duis vulputate ex et ex tincidunt, quis lacinia velit aliquet. Duis non efficitur nisi, id malesuada justo. Maecenas sagittis felis ac sagittis semper. Curabitur purus leo donec vel dolor at arcu tincidunt bibendum. Interdum et malesuada fames ac ante ipsum primis in faucibus. Fusce ut aliquet justo. Donec id neque ipsum. Integer eget ultricies odio. Nam vel ex a orci fringilla tincidunt. Aliquam eleifend ligula non velit accumsan cursus. Etiam ut gravida sapien.</p>
-
-									<p>Vestibulum ultrices risus velit, sit amet blandit massa auctor sit amet. Sed eu lectus sem. Phasellus in odio at ipsum porttitor mollis id vel diam. Praesent sit amet posuere risus, eu faucibus lectus. Vivamus ex ligula, tempus pulvinar ipsum in, auctor porta quam. Proin nec commodo, vel scelerisque nisi scelerisque. Suspendisse id quam vel tortor tincidunt suscipit. Nullam auctor orci eu dolor consectetur, interdum ullamcorper ante tincidunt. Mauris felis nec felis elementum varius.</p>
-
-									<h3 class="major">Vitae phasellus</h3>
-									<p>Cras mattis ante fermentum, malesuada neque vitae, eleifend erat. Phasellus non pulvinar erat. Fusce tincidunt, nisl eget mattis egestas, purus ipsum consequat orci, sit amet lobortis lorem lacus in tellus. Sed ac elementum arcu. Quisque placerat auctor laoreet.</p>
+									<h3 class="major">Skills</h3>
+                                    <p> My primary skills I have to offer are all skills that I learned and developed while pursuing my degree. 
+                                        The skills that I am most confident in are: 
+										<div class="table-wrapper">
+											<table class="alt">
+												<thead>
+													<tr>
+														<th>Name</th>
+														<th>Description</th>
+													</tr>
+												</thead>
+												<tbody>
+													<tr>
+														<td>Java</td>
+														<td>Java was the first programming language I learned and also one of the languages I used the most throughout university.
+                                                            I have also taken a course that taught better practices and techniques when coding in Java, such as refactoring. 
+                                                            This has lead to Java being my most studied and comfortable language. 
+                                                        </td>
+													</tr>
+													<tr>
+														<td>C++</td>
+														<td>Like Java, C++ was one of my most used languages during university. For one of my classes assignments we were asked to optimize
+                                                            algorithms using C++. This lead to me learning C++ in much more detail as well as becoming much more comfortable programming in C++.  
+                                                        </td>
+													</tr>
+													<tr>
+														<td>Self Learning</td>
+														<td> As I have self taught myself every language I know except for Java, I am quite confident in my ability to teach myself a new language. 
+                                                            While I was learning code optimization with C++, I also picked up quite a few good methods that help when learning either a new language or expanding
+                                                            my knowledge of a language I already know. 
+                                                        </td>
+													</tr>
+													<tr>
+														<td>Python</td>
+														<td>This is a language I have used frequently in various courses such as cryptography and introductory machine learning. While learning this language I found it quite intuitive to use and very convenient. 
+                                                         </td>
+													</tr>
+													<tr>
+														<td>HTML/CSS</td>
+														<td>HTML and CSS are both languages I have used to create a handful of websites. </td>
+													</tr>
+                                                    <tr>
+														<td>JavaScript</td>
+														<td>Through the creation of several basic websites and the Wordle Battle project I have become quite familiar with how JavaScript works and how it interacts with HTML. Also, most of
+                                                            my work with JavaScript has been in tandem with js libraries such as Node.js. </td>
+													</tr>
+                                                    <tr>
+														<td>Databases</td>
+														<td>Through the creation of the library database I understand the basics of how to create a database. Furthermore, I also learned how to
+                                                            process the HTTP request from the front-end to interact with the database. </td>
+													</tr>
+                                                    <tr>
+														<td>C#</td>
+														<td>C# is a language that, similar to JavaScript and Python, was quite intuitive making it very quick to learn and easy to use. </tr>
+												</tbody>
+												<tfoot>
+													<tr>
+														<td colspan="2"></td>
+													</tr>
+												</tfoot>
+											</table>
+										</div>
+                                    </p> 
+									<h3 class="major">Some of my projects</h3>
+									<p>Some of the projects that help showcase the skills I listed above.</p>
 
 									<section class="features">
 										<article>
 											<a href="#" class="image"><img src="images/pic04.jpg" alt="" /></a>
-											<h3 class="major">Sed feugiat lorem</h3>
-											<p>Lorem ipsum dolor sit amet, consectetur adipiscing vehicula id nulla dignissim dapibus ultrices.</p>
-											<a href="#" class="special">Learn more</a>
+											<h3 class="major">File Transfer</h3>
+											<p>This is a program where a client establishes a TCP connection to a remote server and can initiate a file transfer. This project was built using Java.</p>
+											<a href="FileTransfer.html" class="special">Learn more</a>
 										</article>
 										<article>
-											<a href="#" class="image"><img src="images/pic05.jpg" alt="" /></a>
-											<h3 class="major">Nisl placerat</h3>
-											<p>Lorem ipsum dolor sit amet, consectetur adipiscing vehicula id nulla dignissim dapibus ultrices.</p>
-											<a href="#" class="special">Learn more</a>
+                                            <a href="#" class="image"><img src="images/pic04.jpg" alt="" /></a>
+											<h3 class="major">Wordle Battle</h3>
+											<p>This game is a multiplayer version of the browser based popular word game Wordle. It was built using
+												JavaScript, Express.js, Node.js, HTML, and CSS. 
+											</p>
+											<a href="Wordle.html" class="special">Learn more</a>
 										</article>
 									</section>
+                                    <ul class="actions">
+										<li><a href="Projects.html" class="button">Browse All</a></li>
+									</ul>
 
 								</div>
 							</div>
@@ -80,37 +143,9 @@
 					<section id="footer">
 						<div class="inner">
 							<h2 class="major">Get in touch</h2>
-							<p>Cras mattis ante fermentum, malesuada neque vitae, eleifend erat. Phasellus non pulvinar erat. Fusce tincidunt, nisl eget mattis egestas, purus ipsum consequat orci, sit amet lobortis lorem lacus in tellus. Sed ac elementum arcu. Quisque placerat auctor laoreet.</p>
-							<form method="post" action="#">
-								<div class="fields">
-									<div class="field">
-										<label for="name">Name</label>
-										<input type="text" name="name" id="name" />
-									</div>
-									<div class="field">
-										<label for="email">Email</label>
-										<input type="email" name="email" id="email" />
-									</div>
-									<div class="field">
-										<label for="message">Message</label>
-										<textarea name="message" id="message" rows="4"></textarea>
-									</div>
-								</div>
-								<ul class="actions">
-									<li><input type="submit" value="Send Message" /></li>
-								</ul>
-							</form>
 							<ul class="contact">
-								<li class="icon solid fa-home">
-									Untitled Inc<br />
-									1234 Somewhere Road Suite #2894<br />
-									Nashville, TN 00000-0000
-								</li>
-								<li class="icon solid fa-phone">(000) 000-0000</li>
-								<li class="icon solid fa-envelope"><a href="#">information@untitled.tld</a></li>
-								<li class="icon brands fa-twitter"><a href="#">twitter.com/untitled-tld</a></li>
-								<li class="icon brands fa-facebook-f"><a href="#">facebook.com/untitled-tld</a></li>
-								<li class="icon brands fa-instagram"><a href="#">instagram.com/untitled-tld</a></li>
+								<li class="icon solid fa-envelope"><a href="mailto:joshuak803@gmail.com">joshuak803@gmail.com</a></li>
+								<li class="icon brands fa-linkedin"><a href="https://www.linkedin.com/in/joshua-kim-99925922b/">https://www.linkedin.com/in/joshua-kim-99925922b/</a></li>
 							</ul>
 							<ul class="copyright">
 								<li>&copy; Untitled Inc. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
